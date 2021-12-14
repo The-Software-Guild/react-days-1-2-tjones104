@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.calculator {
+  margin: auto;
+  padding: 50px 350px 50px 350px;
+}
+
+.body {
+  padding: 20px 20px 20px 20px;
+  box-shadow: 1px 3px 5px black;
+}
+
+.results {
+  text-align: right;
+  width: 80%;
+  margin: auto;
+  padding-right: 35px;
+  font-size: 30px;
+}
+
+.keypad {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+button {
+  background: white;
+  border: 1;
+  padding: 15px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 1px 3px 5px black;
+}
+
+button:hover {
+  background: #d4d4d4;
+}
