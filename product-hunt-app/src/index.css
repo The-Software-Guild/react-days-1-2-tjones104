@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+}
+
+button {
+  background: #000000;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #079c20;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+}
+.list-header .app-name {
+  margin-left: 45%;
+}
+
+.list-header .sort {
+  margin-left: auto;
+  padding: 10px;
+}
+.list-product {
+  padding: 20px;
+}
+
+.product-container {
+  width: 15%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.upvotes {
+  color: rgb(0, 168, 0);
+}
+
+.downvotes {
+  color: rgb(202, 0, 0);
+}
